@@ -8,9 +8,21 @@
 
 | รุ่น / เวอร์ชัน | ระบบปฏิบัติการ | ไฟล์ดาวน์โหลด | ขนาด | สถานะ |
 | :--- | :--- | :--- | :--- | :--- |
-| **v1.0.0 (เสถียร)** | Windows 10 / 11 (64-bit) | [📥 ดาวน์โหลด ProDispatch-Office-Host-Setup-v1.0.0.exe](https://github.com/nikonboy2532-stack/ProDispatch-Releases/releases/download/v1.0.0/ProDispatch-Office-Host-Setup-v1.0.0.exe) | 38.5 MB | ✅ แนะนำใช้งาน |
+| **v1.0.1 (ล่าสุด)** | Windows 10 / 11 (64-bit) | [📥 ดาวน์โหลด ProDispatch-Office-Host-Setup-v1.0.1.exe](https://github.com/nikonboy2532-stack/ProDispatch-Releases/releases/download/v1.0.1/ProDispatch-Office-Host-Setup-v1.0.1.exe) | 38.5 MB | ✅ แนะนำใช้งาน |
+| **v1.0.0** | Windows 10 / 11 (64-bit) | [📥 ดาวน์โหลด ProDispatch-Office-Host-Setup-v1.0.0.exe](https://github.com/nikonboy2532-stack/ProDispatch-Releases/releases/download/v1.0.0/ProDispatch-Office-Host-Setup-v1.0.0.exe) | 38.5 MB | รุ่นเริ่มต้น |
 
-> **SHA-256 Checksum**: `2B38EF035C139BC6C46EE8138AE427F505710597A599147AD23BCC0105E4FE59`
+> **v1.0.1 SHA-256 Checksum**: `00FE3E7C58B34BF0E189DC28F5892902DEA90320D25925269CC70A7667775F8D`
+
+---
+
+## 🌟 บันทึกการเปลี่ยนแปลงรุ่น v1.0.1 (What's New in v1.0.1)
+1. **🏢 ระบบตั้งค่าข้อมูลและโลโก้บริษัท (Company Profile Setup Wizard)**:
+   - สำหรับบริษัทใหม่ที่เข้าใช้งานครั้งแรก ระบบจะแสดงหน้าต่าง Pop-up ให้กรอกชื่อบริษัท เลขประจำตัวผู้เสียภาษี เบอร์โทร LINE ID และอัปโหลดโลโก้บริษัท
+   - ข้อมูลและโลโก้จะถูกนำไปสลักลงบนหัวเอกสารใบเสนอราคา, ใบส่งของ, บัตร Safety Pass และแถบเมนูอัตโนมัติ
+   - ซิงค์ข้อมูลข้ามเครื่องสดเรียลไทม์ผ่าน Firebase Realtime Database
+2. **☁️ ระบบ Cloud-First + Auto Office Archiving (ปิดคอมแม่ในวันหยุดได้ 100%)**:
+   - ในวันหยุดหรือตอนปิดเครื่องแม่ ช่างหน้างานและผู้บริหารสามารถเปิดดูรูปภาพหน้างานและส่งงานผ่าน Cloud ได้ตลอด 24 ชม.
+   - เมื่อเปิดคอมแม่ออฟฟิศในวันเปิดทำการ ตัวเซิร์ฟเวอร์จะดูดไฟล์ภาพและเอกสารทั้งหมดลงมาจัดเก็บแยกตามโฟลเดอร์ใบงานในฮาร์ดดิสก์ออฟฟิศอัตโนมัติ
 
 ---
 
@@ -65,7 +77,7 @@
 
 ## 🔄 การอัปเดตเวอร์ชันอัตโนมัติ (Update Bridge)
 
-ตัวโปรแกรมและหน้าเว็บ ProDispatch เชื่อมต่อกับไฟล์ `update-manifest.json` ในคลังนี้ เมื่อมีการออกอัปเดตรุ่นใหม่ (เช่น v1.0.1):
+ตัวโปรแกรมและหน้าเว็บ ProDispatch เชื่อมต่อกับไฟล์ `update-manifest.json` ในคลังนี้ เมื่อมีการออกอัปเดตรุ่นใหม่:
 - หน้าเว็บจะแจ้งเตือนป้ายอัปเดต
 - หน้าศูนย์ควบคุมเครื่องแม่จะมีปุ่มแจ้งเตือนให้กดดาวน์โหลดตัวติดตั้งใหม่มาลงทับได้ทันที โดย **ข้อมูลงานเก่าและไฟล์ทั้งหมดในฮาร์ดดิสก์จะไม่สูญหาย**
 

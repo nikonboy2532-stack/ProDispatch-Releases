@@ -1,13 +1,13 @@
 {
   "Schema": 1,
   "ProductId": "prodispatch-office-vault",
-  "Version": "1.0.0",
+  "Version": "1.0.1",
   "Platform": "win-x64",
   "Channel": "stable",
-  "PublishedUtc": "2026-11-07T08:30:00Z",
-  "Artifact": "ProDispatch-Office-Host-Setup-v1.0.0.exe",
-  "DownloadUrl": "https://github.com/nikonboy2532-stack/ProDispatch-Releases/releases/download/v1.0.0/ProDispatch-Office-Host-Setup-v1.0.0.exe",
-  "SizeBytes": 38525843,
-  "Sha256": "2B38EF035C139BC6C46EE8138AE427F505710597A599147AD23BCC0105E4FE59",
-  "Notes": "ProDispatch v1.0.0 (Official Release)\r\n- ติดตั้งระบบเครื่องแม่ประจำออฟฟิศ (PC Host Data Vault) 1-Click Installer\r\n- สำรองข้อมูลงานและเอกสารจาก Firebase ลงฮาร์ดดิสก์ออฟฟิศอัตโนมัติ (D:\\ProDispatch_Office_Data)\r\n- เชื่อมต่อ Cloudflare Tunnel (HTTPS) ให้มือถือช่างส่งรูปเข้าเครื่องแม่ได้โดยตรง\r\n- ตั้งค่า Windows Power Plan กันเครื่องหลับ และ Auto-Start เมื่อเปิดเครื่อง\r\n- หน้าจอศูนย์ควบคุมเซิร์ฟเวอร์แบบ Web Dashboard (http://localhost:5000)\r\n- ระบบเปิดกล่องใหม่ (Zero-Data Pristine State) พร้อมคู่มือการผูก Firebase และ Google Apps Script"
+  "PublishedUtc": "2026-11-07T09:45:00Z",
+  "Artifact": "ProDispatch-Office-Host-Setup-v1.0.1.exe",
+  "DownloadUrl": "https://github.com/nikonboy2532-stack/ProDispatch-Releases/releases/download/v1.0.1/ProDispatch-Office-Host-Setup-v1.0.1.exe",
+  "SizeBytes": 38552301,
+  "Sha256": "00FE3E7C58B34BF0E189DC28F5892902DEA90320D25925269CC70A7667775F8D",
+  "Notes": "ProDispatch Official Release v1.0.1\r\n- เพิ่มหน้าต่างตั้งค่าข้อมูลบริษัทและอัปโหลดโลโก้ (Company Profile Setup Wizard) รองรับบริษัทใหม่ใช้งานแบบ Multi-Tenant\r\n- ปรับปรุงระบบ Cloud-First Archiving: ปิดคอมแม่ออฟฟิศในวันหยุดได้ 100% ช่างส่งงานและดูรูปได้ตลอด 24 ชม. เมื่อเปิดคอมแม่ออฟฟิศจะดูดไฟล์ลงเครื่องอัตโนมัติ\r\n- ซิงค์ข้อมูลบริษัทเรียลไทม์ผ่าน Firebase Realtime Database (/company_profile) สลักชื่อและโลโก้บนเอกสารอัตโนมัติ"
 }
