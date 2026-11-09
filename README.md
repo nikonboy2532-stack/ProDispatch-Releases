@@ -8,9 +8,12 @@
 
 | รุ่น / เวอร์ชัน | ระบบปฏิบัติการ | ไฟล์ดาวน์โหลด | ขนาด | สถานะ |
 | :--- | :--- | :--- | :--- | :--- |
-| **v1.0.1 (ล่าสุด)** | Windows 10 / 11 (64-bit) | [📥 ดาวน์โหลด ProDispatch-Office-Host-Setup-v1.0.1.exe](https://github.com/nikonboy2532-stack/ProDispatch-Releases/releases/download/v1.0.1/ProDispatch-Office-Host-Setup-v1.0.1.exe) | 38.5 MB | ✅ แนะนำใช้งาน |
+| **v1.0.2 (ล่าสุด)** | Windows 10 / 11 (64-bit) | [📥 ดาวน์โหลด ProDispatch-Office-Host-Setup-v1.0.2.exe](https://github.com/nikonboy2532-stack/ProDispatch-Releases/releases/download/v1.0.2/ProDispatch-Office-Host-Setup-v1.0.2.exe) | 38.8 MB | ✅ แนะนำใช้งาน |
+| **v1.0.1** | Windows 10 / 11 (64-bit) | [📥 ดาวน์โหลด ProDispatch-Office-Host-Setup-v1.0.1.exe](https://github.com/nikonboy2532-stack/ProDispatch-Releases/releases/download/v1.0.1/ProDispatch-Office-Host-Setup-v1.0.1.exe) | 38.5 MB | รุ่นก่อนหน้า |
 | **v1.0.0** | Windows 10 / 11 (64-bit) | [📥 ดาวน์โหลด ProDispatch-Office-Host-Setup-v1.0.0.exe](https://github.com/nikonboy2532-stack/ProDispatch-Releases/releases/download/v1.0.0/ProDispatch-Office-Host-Setup-v1.0.0.exe) | 38.5 MB | รุ่นเริ่มต้น |
 
+> **v1.0.2 SHA-256 Checksum**: D1001BC6389EF869D94A7D2BE1B4A1F7C44E74D514D991805D96F41446FD4284
+> 
 > **v1.0.1 SHA-256 Checksum**: `00FE3E7C58B34BF0E189DC28F5892902DEA90320D25925269CC70A7667775F8D`
 
 ---

@@ -1,13 +1,13 @@
 {
   "Schema": 1,
   "ProductId": "prodispatch-office-vault",
-  "Version": "1.0.1",
+  "Version": "1.0.2",
   "Platform": "win-x64",
   "Channel": "stable",
-  "PublishedUtc": "2026-11-07T09:45:00Z",
-  "Artifact": "ProDispatch-Office-Host-Setup-v1.0.1.exe",
-  "DownloadUrl": "https://github.com/nikonboy2532-stack/ProDispatch-Releases/releases/download/v1.0.1/ProDispatch-Office-Host-Setup-v1.0.1.exe",
-  "SizeBytes": 38552301,
-  "Sha256": "00FE3E7C58B34BF0E189DC28F5892902DEA90320D25925269CC70A7667775F8D",
-  "Notes": "ProDispatch Official Release v1.0.1\r\n- เพิ่มหน้าต่างตั้งค่าข้อมูลบริษัทและอัปโหลดโลโก้ (Company Profile Setup Wizard) รองรับบริษัทใหม่ใช้งานแบบ Multi-Tenant\r\n- ปรับปรุงระบบ Cloud-First Archiving: ปิดคอมแม่ออฟฟิศในวันหยุดได้ 100% ช่างส่งงานและดูรูปได้ตลอด 24 ชม. เมื่อเปิดคอมแม่ออฟฟิศจะดูดไฟล์ลงเครื่องอัตโนมัติ\r\n- ซิงค์ข้อมูลบริษัทเรียลไทม์ผ่าน Firebase Realtime Database (/company_profile) สลักชื่อและโลโก้บนเอกสารอัตโนมัติ"
+  "PublishedUtc": "2026-11-09T05:03:00Z",
+  "Artifact": "ProDispatch-Office-Host-Setup-v1.0.2.exe",
+  "DownloadUrl": "https://github.com/nikonboy2532-stack/ProDispatch-Releases/releases/download/v1.0.2/ProDispatch-Office-Host-Setup-v1.0.2.exe",
+  "SizeBytes": 38807102,
+  "Sha256": "D1001BC6389EF869D94A7D2BE1B4A1F7C44E74D514D991805D96F41446FD4284",
+  "Notes": "ProDispatch Official Release v1.0.2\r\n- เปลี่ยนคำว่า 'สเต็ปช่าง' เป็น 'ขั้นตอนการทำงาน' และเปลี่ยน 'สเต็ป 1-7' เป็น 'ขั้นตอนที่ 1-7' ทั้งระบบ\r\n- ปรับเมนูและหน้าจอฝ่ายบัญชีเป็น 'งวดวางบิล' ตามมาตรฐานบัญชี\r\n- แก้ไขบั๊กวันที่ ซ่อนเลข (0001-01-01) แสดงเฉพาะ '⏳ รอลูกค้าคอนเฟิร์มวัน'\r\n- เพิ่มระบบจัดเก็บภาพอัปเดตงานรายวัน (Daily Progress) แยกโฟลเดอร์ตามวันในเครื่องแม่ (06_ภาพอัปเดตงานรายวัน_DailyProgress/วันที่X_YYYY-MM-DD)\r\n- อัปเดตหน้าจอศูนย์ควบคุมเครื่องแม่ (Control Dashboard) เป็นเวอร์ชัน 1.0.2"
 }
