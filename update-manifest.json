@@ -1,13 +1,13 @@
 {
-    "DownloadUrl":  "https://github.com/nikonboy2532-stack/ProDispatch-Releases/releases/download/v1.0.3/ProDispatch-Office-Host-Setup-v1.0.3.exe",
-    "Platform":  "win-x64",
-    "Version":  "1.0.3",
-    "SizeBytes":  38966046,
-    "Notes":  "ProDispatch Official Release v1.0.3\r\n- แก้ไขระบบ Office Vault Server ให้ดึงไฟล์แนบจาก /job_attachments/{jobId} ครบทุกหมวดหมู่\r\n- เพิ่มการสกัดไฟล์สลิปงวดวางบิล, ใบงานสโตร์/วิศวะ, ภาพ QC, ภาพจัดส่ง และภาพแจ้งปัญหาหน้างาน\r\n- แก้ไขสิทธิ์ฝ่ายบัญชี, การล็อกอินช่าง, ลิงก์เชิญ 10 ตำแหน่ง และการโหลดภาพในใบจบงาน",
-    "Artifact":  "ProDispatch-Office-Host-Setup-v1.0.3.exe",
-    "ProductId":  "prodispatch-office-vault",
-    "Channel":  "stable",
-    "Sha256":  "32BDB9A9C5E34AD35635F8EB43E358B171CFA905CDDB3E2896F19D2E82B8EE6E",
-    "Schema":  1,
-    "PublishedUtc":  "2026-11-17T03:21:24Z"
+  "Schema": 1,
+  "ProductId": "prodispatch-office-vault",
+  "Channel": "stable",
+  "Platform": "win-x64",
+  "Version": "1.0.4",
+  "Artifact": "ProDispatch-Office-Host-Setup-v1.0.4.exe",
+  "DownloadUrl": "https://github.com/nikonboy2532-stack/ProDispatch-Releases/releases/download/v1.0.4/ProDispatch-Office-Host-Setup-v1.0.4.exe",
+  "SizeBytes": 38967117,
+  "Sha256": "37DD1E1D8FECB4408845A2ACCD552E31E5E77C7F3CA1DC9E13CCE74B2AA93F80",
+  "PublishedUtc": "2026-11-18T09:22:36Z",
+  "Notes": "ProDispatch Official Release v1.0.4\r\n- เพิ่มระบบ Auto-Archive อัตโนมัติ (ตรวจสอบดิสก์เครื่องแม่ + รอรอบซิงค์ Google Drive ครบก่อนล้างเฉพาะรูป/PDF ก้อนใหญ่ใน Firebase)\r\n- เพิ่มแผงควบคุม Auto-Archive ใน Dashboard (ตั้งค่า 14/30/60/90 วัน และปุ่มสแกน Archive ทันที)\r\n- แสดงป้ายแจ้งเตือนงานที่ Archive แล้วบนเว็บแอป ProDispatch v1.0.27"
 }
